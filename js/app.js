@@ -536,6 +536,7 @@ function hideSegmentTooltip() {
 }
 
 // Tap/click on a segment to show its info (mobile). Click outside to close.
+// Uses segment title/aria-label (so it works for both <div> and <button> segments).
 document.addEventListener('click', (e) => {
   const target = e.target;
   if (!(target instanceof Element)) return;
@@ -550,7 +551,6 @@ document.addEventListener('click', (e) => {
     return;
   }
 
-  // outside click
   hideSegmentTooltip();
 });
 
