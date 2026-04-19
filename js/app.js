@@ -306,13 +306,14 @@ function renderModelCard(model) {
     if (history.length > 0) {
       const segments = history.map(h => {
         const cls = h.status === 'operational' ? 'up' : h.status === 'paid_only' ? 'paid' : 'down';
-        return `<div class="uptime-segment ${cls}" title="${new Date(h.timestamp).toLocaleString()}: ${statusLabel(h.status)}"></div>`;
+        const tooltipText = `${new Date(h.timestamp).toLocaleString()}: ${statusLabel(h.status)}`;
+        return `<button type="button" class="uptime-segment ${cls}" title="${tooltipText}" aria-label="${tooltipText}"></button>`;
       }).join('');
       const pad = Math.max(0, TIMELINE_SEGMENTS - history.length);
-      const padHTML = Array(pad).fill('<div class="uptime-segment unknown"></div>').join('');
+      const padHTML = Array(pad).fill('<button type="button" class="uptime-segment unknown" title="No data" aria-label="No data"></button>').join('');
       timelineHTML = `<div class="uptime-timeline">${padHTML}${segments}</div>`;
     } else {
-      timelineHTML = `<div class="uptime-timeline">${Array(TIMELINE_SEGMENTS).fill('<div class="uptime-segment unknown"></div>').join('')}</div>`;
+      timelineHTML = `<div class="uptime-timeline">${Array(TIMELINE_SEGMENTS).fill('<button type="button" class="uptime-segment unknown" title="No data" aria-label="No data"></button>').join('')}</div>`;
     }
   }
 
@@ -509,4 +510,53 @@ async function init() {
   }, 30000);
 }
 
+// === Mobile-friendly tooltip for timeline segments ===
+let $segmentTooltip = null;
+function ensureSegmentTooltip() {
+  if ($segmentTooltip) return $segmentTooltip;
+  $segmentTooltip = document.createElement('div');
+  $segmentTooltip.className = 'segment-tooltip';
+  $segmentTooltip.hidden = true;
+  $segmentTooltip.innerHTML = `<span class="segment-tooltip-text"></span><button type="button" aria-label="Close">✕</button>`;
+  document.body.appendChild($segmentTooltip);
+
+  $segmentTooltip.querySelector('button')?.addEventListener('click', hideSegmentTooltip);
+  return $segmentTooltip;
+}
+
+function showSegmentTooltip(text) {
+  const tip = ensureSegmentTooltip();
+  const textEl = tip.querySelector('.segment-tooltip-text');
+  if (textEl) textEl.textContent = text;
+  tip.hidden = false;
+}
+
+function hideSegmentTooltip() {
+  if ($segmentTooltip) $segmentTooltip.hidden = true;
+}
+
+// Tap/click on a segment to show its info (mobile). Click outside to close.
+document.addEventListener('click', (e) => {
+  const target = e.target;
+  if (!(target instanceof Element)) return;
+
+  const seg = target.closest('.uptime-segment');
+  if (seg) {
+    const text = seg.getAttribute('aria-label') || seg.getAttribute('title');
+    if (!text) return;
+    e.preventDefault();
+    e.stopPropagation();
+    showSegmentTooltip(text);
+    return;
+  }
+
+  // outside click
+  hideSegmentTooltip();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') hideSegmentTooltip();
+});
+
 document.addEventListener('DOMContentLoaded', init);
+
