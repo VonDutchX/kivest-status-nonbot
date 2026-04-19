@@ -1,0 +1,1970 @@
+{
+  "lastRun": "2026-04-19T10:10:01.279Z",
+  "runCount": 29,
+  "totalModels": 74,
+  "testedModels": 22,
+  "inProgress": true,
+  "models": {
+    "claude-sonnet-4-6": {
+      "id": "claude-sonnet-4-6",
+      "ownedBy": "anthropic",
+      "status": "operational",
+      "responseTime": 4126,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I'm Claude, made by Anthropic.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "req_1776593399575_weolql",
+        "object": "chat.completion",
+        "created": 1776593402,
+        "model": "claude-sonnet-4-6",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I'm Claude, made by Anthropic."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 223,
+          "completion_tokens": 11,
+          "total_tokens": 234
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 78.26,
+      "totalChecks": 23
+    },
+    "claude-haiku-4-5": {
+      "id": "claude-haiku-4-5",
+      "ownedBy": "anthropic",
+      "status": "down",
+      "responseTime": 1513,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "Authentication with the model provider failed. Please try again later.",
+          "type": "server_error"
+        }
+      },
+      "error": "Authentication with the model provider failed. Please try again later.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "gpt-5.3-codex": {
+      "id": "gpt-5.3-codex",
+      "ownedBy": "openai",
+      "status": "operational",
+      "responseTime": 2990,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I’m an OpenAI assistant running in this chat environment. I don’t have visibility into the exact model variant name from inside the conversation.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "3wd69TPQYGAyKhjEXnehDfccRu5i7iKROqwdxjnhNc37cRllAmefz1R7HoorB+PFmPRW/MagXt9NlE2RhGUswcYXRTE5HkPmRSMK+JRq2LBa7FPK6PugRWL8TYubZ4m+UAHD6CnErg/p7yzNoKWkPAskWfDgcHMWIc6jSL7SPT7sKmVdf0ERgBhXshT71dalIFQL4ZzDIxgQdlCQurY0/mAxh0JvUoQJ+IbgdKdrKl01DSP2kCaBdb93VIOL2I4MP0+bphsq5PPNpB6SVQilmKsbRlAXpbVwbel93WTgowL/T329baOsL3xH9tqhGXqx4yncxvzPhr1ciIAAQIzh98TJfvPO8GnNUfpaZSj87FCdialDYGNS0LIdxaVsGB7SYXAT75x1Wmaw7DU//v2OY8yeVzIQpR53",
+        "object": "chat.completion",
+        "created": 1776593400,
+        "model": "gpt-5.3-codex",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I’m an OpenAI assistant running in this chat environment. I don’t have visibility into the exact model variant name from inside the conversation."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 12,
+          "completion_tokens": 32,
+          "total_tokens": 44
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "gpt-5-2": {
+      "id": "gpt-5-2",
+      "ownedBy": "openai",
+      "status": "down",
+      "responseTime": 892,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "Authentication with the model provider failed. Please try again later.",
+          "type": "server_error"
+        }
+      },
+      "error": "Authentication with the model provider failed. Please try again later.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "gpt-5.2-codex": {
+      "id": "gpt-5.2-codex",
+      "ownedBy": "openai",
+      "status": "operational",
+      "responseTime": 3033,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I’m ChatGPT, a large language model created by OpenAI.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "VSXNxvy4bKPVQTmgKlF5FDzcAsFAMQz/11CMWTDYF2OhOk1Sp56zuireWqyAvazyiIFHEZIvfgZLULfh0y6+F1juzCGlhJZhJ6Wa0RuWf/qC/hU3Q9UA7DR3zHnBC+f5oMctEp2dBJI9F53vWTwvCN46Y4DQjdi3hiT4xjVIpTfosu+V3hJd9clahwiMWmxQKOHtk2HSthrB7KLQbx876YH4NgRFF40V0Y3P1QDZg0Zuws8t8bLhfePjIbNy3r9QkBkzfmAE/qHlj7mC56K5EGq3Km7Be6plGU/kMsQl8lIv9vgDYUWDqJh7/cgmZ6MokcQMTY2d2uM6pvnxjKrXAlLclFqYXfY22YqUBjfQxh891RjVyyN+gQCmTllK1elCtnO4szf00Phb40+3DvjnbiZTYmjumKiE",
+        "object": "chat.completion",
+        "created": 1776593400,
+        "model": "gpt-5.2-codex",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I’m ChatGPT, a large language model created by OpenAI."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 12,
+          "completion_tokens": 35,
+          "total_tokens": 47
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "grok-code-fast-1": {
+      "id": "grok-code-fast-1",
+      "ownedBy": "xai",
+      "status": "operational",
+      "responseTime": 6953,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I'm Grok, an AI built by xAI. I'm not based on any other companies' models. If you have more questions, feel free to ask!",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "req_1776593472208_9jkave",
+        "object": "chat.completion",
+        "created": 1776593478,
+        "model": "grok-code-fast-1",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I'm Grok, an AI built by xAI. I'm not based on any other companies' models. If you have more questions, feel free to ask!"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 32,
+          "total_tokens": 241
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 82.61,
+      "totalChecks": 23
+    },
+    "sarvamai/sarvam-m": {
+      "id": "sarvamai/sarvam-m",
+      "ownedBy": "sarvam",
+      "status": "down",
+      "responseTime": 658,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "The request was rejected by the model provider.",
+          "type": "invalid_request_error"
+        }
+      },
+      "error": "The request was rejected by the model provider.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 91.3,
+      "totalChecks": 23
+    },
+    "pr-2/claude-sonnet-4-20250514": {
+      "id": "pr-2/claude-sonnet-4-20250514",
+      "ownedBy": "anthropic",
+      "status": "down",
+      "responseTime": 208,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+          "type": "server_error"
+        }
+      },
+      "error": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "pr-2/claude-sonnet-4-5-20250929": {
+      "id": "pr-2/claude-sonnet-4-5-20250929",
+      "ownedBy": "anthropic",
+      "status": "down",
+      "responseTime": 1047,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+          "type": "server_error"
+        }
+      },
+      "error": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "claude-opus-4-6": {
+      "id": "claude-opus-4-6",
+      "ownedBy": "anthropic",
+      "status": "operational",
+      "responseTime": 3014,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I'm Claude, made by Anthropic.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "req_1776593529604_lxvajs",
+        "object": "chat.completion",
+        "created": 1776593531,
+        "model": "claude-opus-4-6",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I'm Claude, made by Anthropic."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 223,
+          "completion_tokens": 11,
+          "total_tokens": 234
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "pr-2/claude-opus-4-1-20250805": {
+      "id": "pr-2/claude-opus-4-1-20250805",
+      "ownedBy": "anthropic",
+      "status": "down",
+      "responseTime": 478,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+          "type": "server_error"
+        }
+      },
+      "error": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "pr-2/claude-opus-4-20250514": {
+      "id": "pr-2/claude-opus-4-20250514",
+      "ownedBy": "anthropic",
+      "status": "down",
+      "responseTime": 525,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+          "type": "server_error"
+        }
+      },
+      "error": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "pr-2/claude-opus-4-5-20251101": {
+      "id": "pr-2/claude-opus-4-5-20251101",
+      "ownedBy": "anthropic",
+      "status": "down",
+      "responseTime": 444,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+          "type": "server_error"
+        }
+      },
+      "error": "The model provider is temporarily unavailable. Please try again in a few seconds.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "gpt-5.4": {
+      "id": "gpt-5.4",
+      "ownedBy": "openai",
+      "status": "operational",
+      "responseTime": 3593,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I’m ChatGPT, a large language model from OpenAI. I don’t have a way to verify or reveal an exact internal model name/version from within this chat (e.g., a specific “GPT-4.x” identifier).",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "req_1776593596462_q9c60t",
+        "object": "chat.completion",
+        "created": 1776593598,
+        "model": "gpt-5.4",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I’m ChatGPT, a large language model from OpenAI. I don’t have a way to verify or reveal an exact internal model name/version from within this chat (e.g., a specific “GPT-4.x” identifier)."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 12,
+          "completion_tokens": 50,
+          "total_tokens": 62
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "xiaomi/mimo-v2-pro": {
+      "id": "xiaomi/mimo-v2-pro",
+      "ownedBy": "xiaomi",
+      "status": "operational",
+      "responseTime": 2176,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "[No text content returned]",
+      "reasoningContent": null,
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant"
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1776593615,
+        "id": "gorouter-1776593615-0Xfi1JrX36L3K0Jd3ZYJxM",
+        "model": "xiaomi/mimo-v2-pro",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 0,
+          "prompt_tokens": 0,
+          "total_tokens": 0
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 91.3,
+      "totalChecks": 23
+    },
+    "xiaomi/mimo-v2-omni": {
+      "id": "xiaomi/mimo-v2-omni",
+      "ownedBy": "xiaomi",
+      "status": "operational",
+      "responseTime": 223,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "The model does not exist in https://api.airforce\ndiscord.gg/airforce",
+      "reasoningContent": null,
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "The model does not exist in https://api.airforce\ndiscord.gg/airforce",
+              "role": "assistant"
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1776593627,
+        "id": "gorouter-1776593627-X8CKKjtmeqyUPQDpJ6tNBG",
+        "model": "xiaomi/mimo-v2-omni",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 8,
+          "prompt_tokens": 391,
+          "total_tokens": 399
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 91.3,
+      "totalChecks": 23
+    },
+    "z-ai/glm-5.1": {
+      "id": "z-ai/glm-5.1",
+      "ownedBy": "zhipu",
+      "status": "operational",
+      "responseTime": 6309,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I'm GLM, a large language model developed by Z.ai. I'm designed to assist users through natural language processing, providing helpful information and answering questions to",
+      "reasoningContent": "The user has inquired about which LLM I am, so I need to clearly state my identity as GLM, developed by Z.ai. I should introduce my capabilities concisely, focusing on how I assist users through natural language processing. It's important to maintain a professional and friendly tone in the response, while emphasizing my ability to understand and help with queries. Keep the explanation straightforward and avoid jargon to make it accessible.",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "I'm GLM, a large language model developed by Z.ai. I'm designed to assist users through natural language processing, providing helpful information and answering questions to",
+              "reasoning": "The user has inquired about which LLM I am, so I need to clearly state my identity as GLM, developed by Z.ai. I should introduce my capabilities concisely, focusing on how I assist users through natural language processing. It's important to maintain a professional and friendly tone in the response, while emphasizing my ability to understand and help with queries. Keep the explanation straightforward and avoid jargon to make it accessible.",
+              "reasoning_content": "The user has inquired about which LLM I am, so I need to clearly state my identity as GLM, developed by Z.ai. I should introduce my capabilities concisely, focusing on how I assist users through natural language processing. It's important to maintain a professional and friendly tone in the response, while emphasizing my ability to understand and help with queries. Keep the explanation straightforward and avoid jargon to make it accessible.",
+              "role": "assistant"
+            },
+            "native_finish_reason": "length"
+          }
+        ],
+        "created": 1776593645,
+        "id": "gorouter-1776593645-anDDsG5N4UJYzTrm7p4uXh",
+        "model": "z-ai/glm-5.1",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 120,
+          "completion_tokens_details": {
+            "reasoning_tokens": 87
+          },
+          "prompt_tokens": 13,
+          "prompt_tokens_details": {},
+          "total_tokens": 131
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "qwen/qwen3.6-plus": {
+      "id": "qwen/qwen3.6-plus",
+      "ownedBy": "qwen",
+      "status": "operational",
+      "responseTime": 1296,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "[Reasoning only] Here's a thinking process:\n\n1.  **Analyze User Input:** The user asks \"Which LLM are you?\"\n2.  **Identify Key Information:** The user is asking for my identity/model name.\n3.  **Consult Identity/Instructions:** I am Qwen, developed by Alibaba Group's Tongyi Lab. I should respond honestly and concise",
+      "reasoningContent": "Here's a thinking process:\n\n1.  **Analyze User Input:** The user asks \"Which LLM are you?\"\n2.  **Identify Key Information:** The user is asking for my identity/model name.\n3.  **Consult Identity/Instructions:** I am Qwen, developed by Alibaba Group's Tongyi Lab. I should respond honestly and concisely to this question.\n4.  **Formulate Response:** State clearly that I am Qwen, a large language model developed by Alibaba Group's Tongyi Lab. Keep it direct and helpful.",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "",
+              "reasoning": "Here's a thinking process:\n\n1.  **Analyze User Input:** The user asks \"Which LLM are you?\"\n2.  **Identify Key Information:** The user is asking for my identity/model name.\n3.  **Consult Identity/Instructions:** I am Qwen, developed by Alibaba Group's Tongyi Lab. I should respond honestly and concisely to this question.\n4.  **Formulate Response:** State clearly that I am Qwen, a large language model developed by Alibaba Group's Tongyi Lab. Keep it direct and helpful.\n",
+              "reasoning_content": "Here's a thinking process:\n\n1.  **Analyze User Input:** The user asks \"Which LLM are you?\"\n2.  **Identify Key Information:** The user is asking for my identity/model name.\n3.  **Consult Identity/Instructions:** I am Qwen, developed by Alibaba Group's Tongyi Lab. I should respond honestly and concisely to this question.\n4.  **Formulate Response:** State clearly that I am Qwen, a large language model developed by Alibaba Group's Tongyi Lab. Keep it direct and helpful.\n",
+              "reasoning_details": [
+                {
+                  "format": "unknown",
+                  "index": 0,
+                  "text": "Here's a thinking process:\n\n1.  **Analyze User Input:** The user asks \"Which LLM are you?\"\n2.  **Identify Key Information:** The user is asking for my identity/model name.\n3.  **Consult Identity/Instructions:** I am Qwen, developed by Alibaba Group's Tongyi Lab. I should respond honestly and concisely to this question.\n4.  **Formulate Response:** State clearly that I am Qwen, a large language model developed by Alibaba Group's Tongyi Lab. Keep it direct and helpful.\n",
+                  "type": "reasoning.text"
+                }
+              ],
+              "role": "assistant"
+            },
+            "native_finish_reason": "length"
+          }
+        ],
+        "created": 1776593659,
+        "id": "gorouter-1776593659-zTEq0QI8EmgowEaCDss6zz",
+        "model": "qwen/qwen3.6-plus",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 120,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16,
+          "prompt_tokens_details": {},
+          "total_tokens": 136
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "qwen3.5-397b-a17b": {
+      "id": "qwen3.5-397b-a17b",
+      "ownedBy": "qwen",
+      "status": "down",
+      "responseTime": 36,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "Provider not configured.",
+          "type": "server_error"
+        }
+      },
+      "error": "Provider not configured.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 91.3,
+      "totalChecks": 23
+    },
+    "qwen3-235b-a22b": {
+      "id": "qwen3-235b-a22b",
+      "ownedBy": "qwen",
+      "status": "down",
+      "responseTime": 26,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "Provider not configured.",
+          "type": "server_error"
+        }
+      },
+      "error": "Provider not configured.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "qwen3-32b": {
+      "id": "qwen3-32b",
+      "ownedBy": "qwen",
+      "status": "down",
+      "responseTime": 53,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": {
+        "error": {
+          "message": "Provider not configured.",
+          "type": "server_error"
+        }
+      },
+      "error": "Provider not configured.",
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "qwen3-coder-480b-a35b-instruct": {
+      "id": "qwen3-coder-480b-a35b-instruct",
+      "ownedBy": "qwen",
+      "status": "down",
+      "responseTime": 26,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 82.61,
+      "totalChecks": 23
+    },
+    "qwen3-next-80b-a3b-instruct": {
+      "id": "qwen3-next-80b-a3b-instruct",
+      "ownedBy": "qwen",
+      "status": "down",
+      "responseTime": 25,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 95.65,
+      "totalChecks": 23
+    },
+    "qwen3-next-80b-a3b-thinking": {
+      "id": "qwen3-next-80b-a3b-thinking",
+      "ownedBy": "qwen",
+      "status": "down",
+      "responseTime": 26,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "seed-oss-36b-instruct": {
+      "id": "seed-oss-36b-instruct",
+      "ownedBy": "bytedance",
+      "status": "down",
+      "responseTime": 57,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 69.57,
+      "totalChecks": 23
+    },
+    "deepseek-r1-0528": {
+      "id": "deepseek-r1-0528",
+      "ownedBy": "deepseek",
+      "status": "down",
+      "responseTime": 27,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "deepseek-chat": {
+      "id": "deepseek-chat",
+      "ownedBy": "deepseek",
+      "status": "down",
+      "responseTime": 41,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 95.65,
+      "totalChecks": 23
+    },
+    "deepseek-v3.2": {
+      "id": "deepseek-v3.2",
+      "ownedBy": "deepseek",
+      "status": "down",
+      "responseTime": 32,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 82.61,
+      "totalChecks": 23
+    },
+    "deepseek-reasoner": {
+      "id": "deepseek-reasoner",
+      "ownedBy": "deepseek",
+      "status": "down",
+      "responseTime": 23,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "llama-4-maverick-17b-128e-instruct": {
+      "id": "llama-4-maverick-17b-128e-instruct",
+      "ownedBy": "meta",
+      "status": "down",
+      "responseTime": 23,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 69.57,
+      "totalChecks": 23
+    },
+    "llama-4-scout-17b-16e-instruct": {
+      "id": "llama-4-scout-17b-16e-instruct",
+      "ownedBy": "meta",
+      "status": "down",
+      "responseTime": 28,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "phi-4-mini-flash-reasoning": {
+      "id": "phi-4-mini-flash-reasoning",
+      "ownedBy": "microsoft",
+      "status": "down",
+      "responseTime": 31,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 30.43,
+      "totalChecks": 23
+    },
+    "phi-4-multimodal-instruct": {
+      "id": "phi-4-multimodal-instruct",
+      "ownedBy": "microsoft",
+      "status": "down",
+      "responseTime": 34,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 82.61,
+      "totalChecks": 23
+    },
+    "minimax-m2.1": {
+      "id": "minimax-m2.1",
+      "ownedBy": "minimax",
+      "status": "down",
+      "responseTime": 30,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "minimax-m2.5": {
+      "id": "minimax-m2.5",
+      "ownedBy": "minimax",
+      "status": "down",
+      "responseTime": 51,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 91.3,
+      "totalChecks": 23
+    },
+    "minimax-m2": {
+      "id": "minimax-m2",
+      "ownedBy": "minimax",
+      "status": "down",
+      "responseTime": 32,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "devstral-2-123b": {
+      "id": "devstral-2-123b",
+      "ownedBy": "mistral",
+      "status": "down",
+      "responseTime": 282,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "mistral-large-3-675b-instruct": {
+      "id": "mistral-large-3-675b-instruct",
+      "ownedBy": "mistral",
+      "status": "down",
+      "responseTime": 277,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 95.65,
+      "totalChecks": 23
+    },
+    "kimi-k2-instruct-0905": {
+      "id": "kimi-k2-instruct-0905",
+      "ownedBy": "moonshot",
+      "status": "down",
+      "responseTime": 275,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 4.35,
+      "totalChecks": 23
+    },
+    "kimi-k2.5": {
+      "id": "kimi-k2.5",
+      "ownedBy": "moonshot",
+      "status": "down",
+      "responseTime": 277,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "kimi-k2-thinking": {
+      "id": "kimi-k2-thinking",
+      "ownedBy": "moonshot",
+      "status": "down",
+      "responseTime": 29,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "nemotron-3-nano-30b-a3b": {
+      "id": "nemotron-3-nano-30b-a3b",
+      "ownedBy": "nvidia",
+      "status": "down",
+      "responseTime": 22,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "gpt-oss-120b": {
+      "id": "gpt-oss-120b",
+      "ownedBy": "openai-oss",
+      "status": "down",
+      "responseTime": 39,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 0,
+      "totalChecks": 23
+    },
+    "gpt-oss-20b": {
+      "id": "gpt-oss-20b",
+      "ownedBy": "openai-oss",
+      "status": "down",
+      "responseTime": 27,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 73.91,
+      "totalChecks": 23
+    },
+    "step-3.5-flash": {
+      "id": "step-3.5-flash",
+      "ownedBy": "stepfun",
+      "status": "down",
+      "responseTime": 26,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 95.65,
+      "totalChecks": 23
+    },
+    "glm-4.7": {
+      "id": "glm-4.7",
+      "ownedBy": "zhipu",
+      "status": "down",
+      "responseTime": 49,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 73.91,
+      "totalChecks": 23
+    },
+    "glm-5": {
+      "id": "glm-5",
+      "ownedBy": "zhipu",
+      "status": "down",
+      "responseTime": 38,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 69.57,
+      "totalChecks": 23
+    },
+    "kivest-tungtung-brainrot": {
+      "id": "kivest-tungtung-brainrot",
+      "ownedBy": "kivest",
+      "status": "down",
+      "responseTime": 27,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 95.65,
+      "totalChecks": 23
+    },
+    "llama3.1-8B": {
+      "id": "llama3.1-8B",
+      "ownedBy": "kivest",
+      "status": "down",
+      "responseTime": 32,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "qwen3.5-plus": {
+      "id": "qwen3.5-plus",
+      "ownedBy": "qwen",
+      "status": "down",
+      "responseTime": 23,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "HTTP 403: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" ",
+      "lastChecked": "2026-04-19T10:00:02.228Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "qwen3.5-flash": {
+      "id": "qwen3.5-flash",
+      "ownedBy": "qwen",
+      "status": "operational",
+      "responseTime": 2525,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I feature enhanced capabilities in logical reasoning, full-stack code generation, deep visual analysis, and autonomous agent planning, with support for over 100 languages and a context window of up to 256K tokens. How can I assist you?",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "chatcmpl-e198f4d3-c5ef-4bb3-9e01-d0c31eff7764",
+        "object": "chat.completion",
+        "created": 1776286886,
+        "model": "qwen3.5-flash",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I feature enhanced capabilities in logical reasoning, full-stack code generation, deep visual analysis, and autonomous agent planning, with support for over 100 languages and a context window of up to 256K tokens. How can I assist you?"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ]
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "gemini-3.1-pro-preview": {
+      "id": "gemini-3.1-pro-preview",
+      "ownedBy": "google",
+      "status": "down",
+      "responseTime": 285,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "Error: read ECONNRESET",
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 83.33,
+      "totalChecks": 12
+    },
+    "gemini-3.1-pro-preview:search": {
+      "id": "gemini-3.1-pro-preview:search",
+      "ownedBy": "google",
+      "status": "down",
+      "responseTime": 90152,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": null,
+      "reasoningContent": null,
+      "rawResponse": null,
+      "error": "Timeout (90s)",
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 0,
+      "totalChecks": 12
+    },
+    "gemini-3-flash-preview": {
+      "id": "gemini-3-flash-preview",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 2750,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "J_3faZ3oEuy6kdUP49WBuA8",
+        "created": 1776287015,
+        "model": "gemini-3-flash-preview",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null,
+                "extra_content": {
+                  "google": {
+                    "thought_signature": "EqACCp0CAb4+9vvKErGCeG/FwocpkrsDz5sB07SXsryfM4g7fB3r91Q+nxfjnCUw0Eo3EF0H/O4zcnfXF43BjwiWXiYhPixXWh64SY+1bWjdAScHyrA4TiTFGN5GnIhguoV+Y0X3NxqaIuRKozSIR8sNmHn1z9CAHrVEZxgL7SShn/KlgAs/Wg8L9e5pLf1SqOlNUT9Z9kaWlZ4ulNKKfjeNCPXYqt+/PN2iExBme4erf/NyFdZbfUpm/CdOq8nhuPo29djxCtXyKPPn11DUJ16gaYm9y9y/M6ejBNyjeYq2tLLeYG0lfJtSpmy/woh1mNoGSvuPh145pMAHcjYMTVicuRw/7esHjtqfg9MnMyreUCPvGk7nZBntnSSuVxYgBWBu"
+                  }
+                }
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 74,
+          "prompt_tokens": 7,
+          "total_tokens": 81,
+          "completion_tokens_details": {
+            "reasoning_tokens": 63
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-3-flash-preview:search": {
+      "id": "gemini-3-flash-preview:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 5555,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I am",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "OP3faZyxKtHqkdUP5-PsqAE",
+        "created": 1776287033,
+        "model": "gemini-3-flash-preview:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "I am",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "extra_content": {
+                  "google": {
+                    "thought_signature": "EvYCCvMCAb4+9vsLJItYU4le33VWwSRpgIW7ACRYiovWay8nxvUcRlcdYe5M8PrKpvhro5w60T3AqGWsHkMn+4Rln68jn/I3QoybF8bc4gcwAF6qaAVXxBteTc6yH7mTq87Fg0myOX8desMkRaWubgTYd4YXa1oPf4XCQg61BqobWsTAuoMn6ChSfeSQEzx6AxF30zzCn1TfqACJqPS9pQI69Tw5VBVG7aEzxSULfJmY+KOpuC6jBWFTdATxvLZ0OvgT1qLxEWflZ+zl5qKZsvu3AAOrGHiwJaU9bkh8yGBn4b9YTcjnQSh2RbcWDZQmMqiX9efEPW2Sv4s7y+ZCrWe50lRkzAUEPX2He9EO3W9GEIBvVSq2GAn7tzSWcDnCk6iSEp7gzPpwPkGAONm8scQqpFnhyOQfITN1qrnUKV/w1sux4e/aZphd0VdvztlW9tJRjhNPVHXjTlD11GqtER13AdPWN4Mv4o+UCW2BaLmF12qFP/qBLA0="
+                  }
+                },
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 210,
+          "prompt_tokens": 101,
+          "total_tokens": 311,
+          "completion_tokens_details": {
+            "reasoning_tokens": 114
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-3.1-flash-lite-preview": {
+      "id": "gemini-3.1-flash-lite-preview",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 8879,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "Tf3faZruLq-lkdUP5qfWiAk",
+        "created": 1776287054,
+        "model": "gemini-3.1-flash-lite-preview",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null,
+                "extra_content": {
+                  "google": {
+                    "thought_signature": "EjQKMgG+Pvb7ChL9Qex2AhA5pAxcdmO8mQzJtwD2ZOPEiLEaeRApx8V1QDhJwUqEev1UU+hf"
+                  }
+                }
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 7,
+          "total_tokens": 18
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 66.67,
+      "totalChecks": 12
+    },
+    "gemini-3.1-flash-lite-preview:search": {
+      "id": "gemini-3.1-flash-lite-preview:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 10566,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "ZP3fabHVFZfwnsEPnL2RkA4",
+        "created": 1776287076,
+        "model": "gemini-3.1-flash-lite-preview:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null,
+                "extra_content": {
+                  "google": {
+                    "thought_signature": "EjQKMgG+Pvb75UArGQ9Aa/Xx2syU3OO7F3YV1nsl29uhTToE/eP3hFho0/IBRwVUaeB7RTuN"
+                  }
+                }
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 7,
+          "total_tokens": 18
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 91.67,
+      "totalChecks": 12
+    },
+    "gemini-2.5-flash": {
+      "id": "gemini-2.5-flash",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 1920,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I am a large",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "cf3fafacJdelkdUPy9nKeA",
+        "created": 1776287090,
+        "model": "gemini-2.5-flash",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "I am a large",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 116,
+          "prompt_tokens": 7,
+          "total_tokens": 123,
+          "completion_tokens_details": {
+            "reasoning_tokens": 112
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-2.5-flash:search": {
+      "id": "gemini-2.5-flash:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 2025,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "f_3fafStJKTj7M8P5qGimA4",
+        "created": 1776287104,
+        "model": "gemini-2.5-flash:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 55,
+          "prompt_tokens": 7,
+          "total_tokens": 62,
+          "completion_tokens_details": {
+            "reasoning_tokens": 44
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-2.5-flash-lite": {
+      "id": "gemini-2.5-flash-lite",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 9380,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "lf3fadbEJ-mskdUPgqqy4A8",
+        "created": 1776287125,
+        "model": "gemini-2.5-flash-lite",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 7,
+          "total_tokens": 18
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-2.5-flash-lite:search": {
+      "id": "gemini-2.5-flash-lite:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 1770,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "o_3faauVHsX9kdUPjL2L2QY",
+        "created": 1776287139,
+        "model": "gemini-2.5-flash-lite:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 11,
+          "prompt_tokens": 7,
+          "total_tokens": 18
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-2.5-pro": {
+      "id": "gemini-2.5-pro",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 8149,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "[No text content returned]",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "t_3faYf2JOXskdUPm9LwwA4",
+        "created": 1776287159,
+        "model": "gemini-2.5-pro",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 117,
+          "prompt_tokens": 7,
+          "total_tokens": 124,
+          "completion_tokens_details": {
+            "reasoning_tokens": 117
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 23
+    },
+    "gemini-2.5-pro:search": {
+      "id": "gemini-2.5-pro:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 8203,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I am Gemini, a large language model developed by Google. I am part of a family of multimodal AI models created by Google DeepMind. This means I can process and understand various types of information, including text, images, audio",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "y_3fadK5OdHqkdUP5-PsqAE",
+        "created": 1776287180,
+        "model": "gemini-2.5-pro:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "I am Gemini, a large language model developed by Google. I am part of a family of multimodal AI models created by Google DeepMind. This means I can process and understand various types of information, including text, images, audio",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 221,
+          "prompt_tokens": 7,
+          "total_tokens": 228,
+          "completion_tokens_details": {
+            "reasoning_tokens": 97
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-robotics-er-1.5-preview": {
+      "id": "gemini-robotics-er-1.5-preview",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 6098,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "[No text content returned]",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "3f3fafOiMYSzkdUPiZS2kQE",
+        "created": 1776287198,
+        "model": "gemini-robotics-er-1.5-preview",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 117,
+          "prompt_tokens": 7,
+          "total_tokens": 124,
+          "completion_tokens_details": {
+            "reasoning_tokens": 117
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemini-robotics-er-1.5-preview:search": {
+      "id": "gemini-robotics-er-1.5-preview:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 2477,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "I am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "7P3faejHBqTj7M8P5qGimA4",
+        "created": 1776287212,
+        "model": "gemini-robotics-er-1.5-preview:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 40,
+          "prompt_tokens": 7,
+          "total_tokens": 47,
+          "completion_tokens_details": {
+            "reasoning_tokens": 29
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-4-26b-a4b-it": {
+      "id": "gemma-4-26b-a4b-it",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 3687,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "<thought>\n*   The user is asking \"Which LLM are you?\"\n    *   I need to identify my identity based on the provided system instructions.\n\n    *   Name: Gemma 4.\n    *   Developer: Google DeepMind.\n    *   Nature: Large Language Model.\n    *   Type: Open weights model.\n\n    *   \"I am Gemma 4, a large language model developed by Google DeepMind.\"\n</thought>\n\nI am Gemma 4, a large language model developed by Google DeepMind.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "_P3fac2BDtelkdUPy9nKeA",
+        "created": 1776287228,
+        "model": "gemma-4-26b-a4b-it",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "<thought>\n*   The user is asking \"Which LLM are you?\"\n    *   I need to identify my identity based on the provided system instructions.\n\n    *   Name: Gemma 4.\n    *   Developer: Google DeepMind.\n    *   Nature: Large Language Model.\n    *   Type: Open weights model.\n\n    *   \"I am Gemma 4, a large language model developed by Google DeepMind.\"\n</thought>\n\nI am Gemma 4, a large language model developed by Google DeepMind.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 107,
+          "prompt_tokens": 7,
+          "total_tokens": 114,
+          "completion_tokens_details": {
+            "reasoning_tokens": 91
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-4-26b-a4b-it:search": {
+      "id": "gemma-4-26b-a4b-it:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 4395,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "<thought>\nThe user is asking \"Which LLM are you?\".\nI need to identify myself based on my internal configuration/instructions.\n\n1.  **Search/Knowledge Retrieval:** I know my identity. I am a large language model, trained by Google.\n2.  **Constraint Check:** I should not claim to be a specific named model like \"GPT-4\" or \"Claude\" unless I am actually that model. In this case, I am a model trained by Google.\n3.  **Formulate Answer:** State clearly that I am a large language model, trained by Google.\n</thought>\n\nI am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "DP7faf7KJIn5nsEPiuy5-A4",
+        "created": 1776287244,
+        "model": "gemma-4-26b-a4b-it:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "length",
+            "index": 0,
+            "message": {
+              "content": "<thought>\nThe user is asking \"Which LLM are you?\".\nI need to identify myself based on my internal configuration/instructions.\n\n1.  **Search/Knowledge Retrieval:** I know my identity. I am a large language model, trained by Google.\n2.  **Constraint Check:** I should not claim to be a specific named model like \"GPT-4\" or \"Claude\" unless I am actually that model. In this case, I am a model trained by Google.\n3.  **Formulate Answer:** State clearly that I am a large language model, trained by Google.\n</thought>\n\nI am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 132,
+          "prompt_tokens": 7,
+          "total_tokens": 139,
+          "completion_tokens_details": {
+            "reasoning_tokens": 121
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-4-31b-it": {
+      "id": "gemma-4-31b-it",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 3071,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "<thought>\n\"Which LLM are you?\"\nThe user wants to know my identity, developer, and nature.\n\n    *   I am a large language model.\n    *   I was trained by Google.\n</thought>\n\nI am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "G_7facTYKoSzkdUPiZS2kQE",
+        "created": 1776287259,
+        "model": "gemma-4-31b-it",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "<thought>\n\"Which LLM are you?\"\nThe user wants to know my identity, developer, and nature.\n\n    *   I am a large language model.\n    *   I was trained by Google.\n</thought>\n\nI am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 53,
+          "prompt_tokens": 7,
+          "total_tokens": 60,
+          "completion_tokens_details": {
+            "reasoning_tokens": 42
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-4-31b-it:search": {
+      "id": "gemma-4-31b-it:search",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 3410,
+      "supportsReasoning": true,
+      "isPaidOnly": false,
+      "response": "<thought>\n\"Which LLM are you?\"\nThe user wants to know my identity, my developer, and my model type.\n\n    *   I am a large language model.\n    *   I was trained by Google.\n</thought>\n\nI am a large language model, trained by Google.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "K_7facCCBsyfkdUP3uW6-AQ",
+        "created": 1776287275,
+        "model": "gemma-4-31b-it:search",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "<thought>\n\"Which LLM are you?\"\nThe user wants to know my identity, my developer, and my model type.\n\n    *   I am a large language model.\n    *   I was trained by Google.\n</thought>\n\nI am a large language model, trained by Google.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 56,
+          "prompt_tokens": 7,
+          "total_tokens": 63,
+          "completion_tokens_details": {
+            "reasoning_tokens": 45
+          }
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-3-27b-it": {
+      "id": "gemma-3-27b-it",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 3568,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I'm Gemma, an open-weights AI assistant. I'm a large language model trained by Google DeepMind. The Gemma team are my creators. \n\nI am widely available to the public – I'm an *open weights* model, which means I'm pretty accessible! I take text *and* images as inputs and generate text as output. \n\nYou can find more information about me here: [https://ai.google.dev/gemma](https://ai.google.dev/gemma)",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "Ov7fae3-Kt6tkdUP_6Cd4Qw",
+        "created": 1776287290,
+        "model": "gemma-3-27b-it",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I'm Gemma, an open-weights AI assistant. I'm a large language model trained by Google DeepMind. The Gemma team are my creators. \n\nI am widely available to the public – I'm an *open weights* model, which means I'm pretty accessible! I take text *and* images as inputs and generate text as output. \n\nYou can find more information about me here: [https://ai.google.dev/gemma](https://ai.google.dev/gemma)\n\n\n\n",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 0,
+          "prompt_tokens": 7,
+          "total_tokens": 7
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-3-12b-it": {
+      "id": "gemma-3-12b-it",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 4567,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I'm Gemma, an open-weights AI assistant. I'm a large language model created by the Gemma team at Google DeepMind. \n\nHere's what's important about me:\n\n*   **Open-weights:** This means my model weights are publicly available, allowing researchers and developers to use, study, and build upon me.\n*   **Created by Google DeepMind:** I was developed by the team at Google DeepMind, known for their work in AI.\n\n\n\nI'm excited to see what people will do with me!",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "S_7faYT4D8W3nsEPz5iGOQ",
+        "created": 1776287307,
+        "model": "gemma-3-12b-it",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I'm Gemma, an open-weights AI assistant. I'm a large language model created by the Gemma team at Google DeepMind. \n\nHere's what's important about me:\n\n*   **Open-weights:** This means my model weights are publicly available, allowing researchers and developers to use, study, and build upon me.\n*   **Created by Google DeepMind:** I was developed by the team at Google DeepMind, known for their work in AI.\n\n\n\nI'm excited to see what people will do with me!",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 0,
+          "prompt_tokens": 7,
+          "total_tokens": 7
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-3-4b-it": {
+      "id": "gemma-3-4b-it",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 2622,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I'm Gemma, a large language model created by the Gemma team at Google DeepMind. I’m an open-weights model, which means I’m widely available for public use! \n\nYou can find more details about me on the Gemma project page: [https://gemma.google.deepmind.com/](https://gemma.google.deepmind.com/)",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "Wf7fadWNNrTc7M8PyLSE0QI",
+        "created": 1776287322,
+        "model": "gemma-3-4b-it",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I'm Gemma, a large language model created by the Gemma team at Google DeepMind. I’m an open-weights model, which means I’m widely available for public use! \n\nYou can find more details about me on the Gemma project page: [https://gemma.google.deepmind.com/](https://gemma.google.deepmind.com/)",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 0,
+          "prompt_tokens": 7,
+          "total_tokens": 7
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "gemma-3-1b-it": {
+      "id": "gemma-3-1b-it",
+      "ownedBy": "google",
+      "status": "operational",
+      "responseTime": 1822,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I’m Gemma, a large language model created by the Gemma team at Google DeepMind. I’m an open-weights model, which means I’m widely available for public use! \n\nI can take text and images as input and respond with text. \n\n---\n\n**Disclaimer:** I don’t have access to real-time information or the ability to browse the internet.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "Z_7fab_wKPqunsEP7N2IkAE",
+        "created": 1776287335,
+        "model": "gemma-3-1b-it",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "content": "I’m Gemma, a large language model created by the Gemma team at Google DeepMind. I’m an open-weights model, which means I’m widely available for public use! \n\nI can take text and images as input and respond with text. \n\n---\n\n**Disclaimer:** I don’t have access to real-time information or the ability to browse the internet.",
+              "role": "assistant",
+              "provider_specific_fields": {
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {}
+          }
+        ],
+        "usage": {
+          "completion_tokens": 80,
+          "prompt_tokens": 7,
+          "total_tokens": 87
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-15T20:46:22.821Z",
+      "uptime": 100,
+      "totalChecks": 12
+    },
+    "claude-opus-4-7": {
+      "id": "claude-opus-4-7",
+      "ownedBy": "anthropic",
+      "status": "operational",
+      "responseTime": 2303,
+      "supportsReasoning": false,
+      "isPaidOnly": false,
+      "response": "I'm Claude, made by Anthropic.",
+      "reasoningContent": null,
+      "rawResponse": {
+        "id": "req_1776593556636_0qaa2b",
+        "object": "chat.completion",
+        "created": 1776593558,
+        "model": "claude-opus-4-7",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I'm Claude, made by Anthropic."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 223,
+          "completion_tokens": 11,
+          "total_tokens": 234
+        }
+      },
+      "error": null,
+      "lastChecked": "2026-04-19T10:10:01.279Z",
+      "uptime": null,
+      "totalChecks": null
+    }
+  }
+}

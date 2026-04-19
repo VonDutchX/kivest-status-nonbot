@@ -1,0 +1,1751 @@
+Fetching model list...
+Fetching models from https://ai.ezif.in/v1/models (auth=true)...
+  ← 403 (4551 bytes)
+/v1/models returned 403 (auth=true): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+Fetching models from https://ai.ezif.in/v1/models (auth=false)...
+  ← 403 (4551 bytes)
+/v1/models returned 403 (auth=false): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+Live model list unavailable, falling back to cached status.json
+Found 73 LLM models (excluded 12 non-LLM models)
+Run #27
+Testing 73 models sequentially (12s delay between each)...
+[1/73] Testing claude-sonnet-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-sonnet-4-6, +thinking)
+    ← 403 (157ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (157ms)
+[2/73] Testing claude-haiku-4-5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-haiku-4-5, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[3/73] Testing gpt-5.3-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.3-codex, +thinking)
+    ← 403 (58ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (58ms)
+[4/73] Testing gpt-5-2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5-2, +thinking)
+    ← 403 (34ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (34ms)
+[5/73] Testing gpt-5.2-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.2-codex, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[6/73] Testing grok-code-fast-1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: grok-code-fast-1, +thinking)
+    ← 403 (33ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (33ms)
+[7/73] Testing sarvamai/sarvam-m...
+    → POST https://ai.ezif.in/v1/chat/completions (model: sarvamai/sarvam-m, +thinking)
+    ← 403 (35ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (35ms)
+[8/73] Testing pr-2/claude-sonnet-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-20250514, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[9/73] Testing pr-2/claude-sonnet-4-5-20250929...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-5-20250929, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[10/73] Testing claude-opus-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-opus-4-6, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[11/73] Testing pr-2/claude-opus-4-1-20250805...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-1-20250805, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[12/73] Testing pr-2/claude-opus-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-20250514, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[13/73] Testing pr-2/claude-opus-4-5-20251101...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-5-20251101, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[14/73] Testing gpt-5.4...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.4, +thinking)
+    ← 403 (23ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (23ms)
+[15/73] Testing xiaomi/mimo-v2-pro...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-pro, +thinking)
+    ← 403 (278ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (278ms)
+[16/73] Testing xiaomi/mimo-v2-omni...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-omni, +thinking)
+    ← 403 (279ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (279ms)
+[17/73] Testing z-ai/glm-5.1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: z-ai/glm-5.1, +thinking)
+    ← 403 (280ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (280ms)
+[18/73] Testing qwen/qwen3.6-plus...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen/qwen3.6-plus, +thinking)
+    ← 403 (282ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (282ms)
+[19/73] Testing qwen3.5-397b-a17b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-397b-a17b, +thinking)
+    ← 403 (275ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (275ms)
+[20/73] Testing qwen3-235b-a22b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-235b-a22b, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[21/73] Testing qwen3-32b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-32b, +thinking)
+    ← 403 (34ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (34ms)
+[22/73] Testing qwen3-coder-480b-a35b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-coder-480b-a35b-instruct, +thinking)
+    ← 403 (33ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (33ms)
+[23/73] Testing qwen3-next-80b-a3b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-next-80b-a3b-instruct, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[24/73] Testing qwen3-next-80b-a3b-thinking...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-next-80b-a3b-thinking, +thinking)
+    ← 403 (40ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (40ms)
+[25/73] Testing seed-oss-36b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: seed-oss-36b-instruct, +thinking)
+    ← 403 (35ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (35ms)
+Fetching model list...
+Fetching models from https://ai.ezif.in/v1/models (auth=true)...
+  ← 403 (4551 bytes)
+/v1/models returned 403 (auth=true): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+Fetching models from https://ai.ezif.in/v1/models (auth=false)...
+  ← 403 (4551 bytes)
+/v1/models returned 403 (auth=false): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+Live model list unavailable, falling back to cached status.json
+Found 73 LLM models (excluded 12 non-LLM models)
+Run #28
+Testing 73 models sequentially (12s delay between each)...
+[1/73] Testing claude-sonnet-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-sonnet-4-6, +thinking)
+    ← 403 (49ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (49ms)
+[26/73] Testing deepseek-r1-0528...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-r1-0528, +thinking)
+    ← 403 (33ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (33ms)
+[2/73] Testing claude-haiku-4-5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-haiku-4-5, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[27/73] Testing deepseek-chat...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-chat, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[3/73] Testing gpt-5.3-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.3-codex, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[28/73] Testing deepseek-v3.2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-v3.2, +thinking)
+    ← 403 (53ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (53ms)
+[4/73] Testing gpt-5-2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5-2, +thinking)
+    ← 403 (40ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (40ms)
+[29/73] Testing deepseek-reasoner...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-reasoner, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[5/73] Testing gpt-5.2-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.2-codex, +thinking)
+    ← 403 (42ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (42ms)
+[30/73] Testing llama-4-maverick-17b-128e-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama-4-maverick-17b-128e-instruct, +thinking)
+    ← 403 (42ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (42ms)
+[6/73] Testing grok-code-fast-1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: grok-code-fast-1, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[31/73] Testing llama-4-scout-17b-16e-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama-4-scout-17b-16e-instruct, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[7/73] Testing sarvamai/sarvam-m...
+    → POST https://ai.ezif.in/v1/chat/completions (model: sarvamai/sarvam-m, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[32/73] Testing phi-4-mini-flash-reasoning...
+    → POST https://ai.ezif.in/v1/chat/completions (model: phi-4-mini-flash-reasoning, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[8/73] Testing pr-2/claude-sonnet-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-20250514, +thinking)
+    ← 403 (42ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (42ms)
+[33/73] Testing phi-4-multimodal-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: phi-4-multimodal-instruct, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[9/73] Testing pr-2/claude-sonnet-4-5-20250929...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-5-20250929, +thinking)
+    ← 403 (44ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (44ms)
+[34/73] Testing minimax-m2.1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2.1, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[10/73] Testing claude-opus-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-opus-4-6, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[35/73] Testing minimax-m2.5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2.5, +thinking)
+    ← 403 (42ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (42ms)
+[11/73] Testing pr-2/claude-opus-4-1-20250805...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-1-20250805, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[36/73] Testing minimax-m2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2, +thinking)
+    ← 403 (38ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (38ms)
+[12/73] Testing pr-2/claude-opus-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-20250514, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[37/73] Testing devstral-2-123b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: devstral-2-123b, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[13/73] Testing pr-2/claude-opus-4-5-20251101...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-5-20251101, +thinking)
+    ← 403 (44ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (44ms)
+[38/73] Testing mistral-large-3-675b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: mistral-large-3-675b-instruct, +thinking)
+    ← 403 (35ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (35ms)
+[14/73] Testing gpt-5.4...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.4, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[39/73] Testing kimi-k2-instruct-0905...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2-instruct-0905, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[15/73] Testing xiaomi/mimo-v2-pro...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-pro, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[40/73] Testing kimi-k2.5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2.5, +thinking)
+    ← 403 (34ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (34ms)
+[16/73] Testing xiaomi/mimo-v2-omni...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-omni, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[41/73] Testing kimi-k2-thinking...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2-thinking, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[17/73] Testing z-ai/glm-5.1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: z-ai/glm-5.1, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[42/73] Testing nemotron-3-nano-30b-a3b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: nemotron-3-nano-30b-a3b, +thinking)
+    ← 403 (42ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (42ms)
+[18/73] Testing qwen/qwen3.6-plus...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen/qwen3.6-plus, +thinking)
+    ← 403 (36ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (36ms)
+[43/73] Testing gpt-oss-120b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-oss-120b, +thinking)
+    ← 403 (33ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (33ms)
+[19/73] Testing qwen3.5-397b-a17b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-397b-a17b, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[44/73] Testing gpt-oss-20b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-oss-20b, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[20/73] Testing qwen3-235b-a22b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-235b-a22b, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[45/73] Testing step-3.5-flash...
+    → POST https://ai.ezif.in/v1/chat/completions (model: step-3.5-flash, +thinking)
+    ← 403 (46ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (46ms)
+[21/73] Testing qwen3-32b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-32b, +thinking)
+    ← 403 (25ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (25ms)
+[46/73] Testing glm-4.7...
+    → POST https://ai.ezif.in/v1/chat/completions (model: glm-4.7, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[22/73] Testing qwen3-coder-480b-a35b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-coder-480b-a35b-instruct, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[47/73] Testing glm-5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: glm-5, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[23/73] Testing qwen3-next-80b-a3b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-next-80b-a3b-instruct, +thinking)
+    ← 403 (25ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (25ms)
+[48/73] Testing kivest-tungtung-brainrot...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kivest-tungtung-brainrot, +thinking)
+    ← 403 (64ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (64ms)
+[24/73] Testing qwen3-next-80b-a3b-thinking...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-next-80b-a3b-thinking, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[49/73] Testing llama3.1-8B...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama3.1-8B, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[25/73] Testing seed-oss-36b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: seed-oss-36b-instruct, +thinking)
+    ← 403 (57ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (57ms)
+[50/73] Testing qwen3.5-plus...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-plus, +thinking)
+    ← 403 (23ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (23ms)
+Fetching model list...
+Fetching models from https://ai.ezif.in/v1/models (auth=true)...
+  ← 403 (4551 bytes)
+/v1/models returned 403 (auth=true): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+Fetching models from https://ai.ezif.in/v1/models (auth=false)...
+  ← 403 (4551 bytes)
+/v1/models returned 403 (auth=false): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+Live model list unavailable, falling back to cached status.json
+Found 73 LLM models (excluded 12 non-LLM models)
+Run #28
+Testing 73 models sequentially (12s delay between each)...
+[1/73] Testing claude-sonnet-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-sonnet-4-6, +thinking)
+    ← 403 (63ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (63ms)
+[26/73] Testing deepseek-r1-0528...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-r1-0528, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[51/73] Testing qwen3.5-flash...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-flash, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[2/73] Testing claude-haiku-4-5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-haiku-4-5, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[27/73] Testing deepseek-chat...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-chat, +thinking)
+    ← 403 (41ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (41ms)
+[52/73] Testing gemini-3.1-pro-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-pro-preview, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[3/73] Testing gpt-5.3-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.3-codex, +thinking)
+    ← 403 (25ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (25ms)
+[28/73] Testing deepseek-v3.2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-v3.2, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[53/73] Testing gemini-3.1-pro-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-pro-preview:search, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[4/73] Testing gpt-5-2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5-2, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[29/73] Testing deepseek-reasoner...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-reasoner, +thinking)
+    ← 403 (23ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (23ms)
+[54/73] Testing gemini-3-flash-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3-flash-preview, +thinking)
+    ← 403 (30ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (30ms)
+[5/73] Testing gpt-5.2-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.2-codex, +thinking)
+    ← 403 (25ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (25ms)
+[30/73] Testing llama-4-maverick-17b-128e-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama-4-maverick-17b-128e-instruct, +thinking)
+    ← 403 (23ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (23ms)
+[55/73] Testing gemini-3-flash-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3-flash-preview:search, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[6/73] Testing grok-code-fast-1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: grok-code-fast-1, +thinking)
+    ← 403 (33ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (33ms)
+[31/73] Testing llama-4-scout-17b-16e-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama-4-scout-17b-16e-instruct, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[56/73] Testing gemini-3.1-flash-lite-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-flash-lite-preview, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[7/73] Testing sarvamai/sarvam-m...
+    → POST https://ai.ezif.in/v1/chat/completions (model: sarvamai/sarvam-m, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[32/73] Testing phi-4-mini-flash-reasoning...
+    → POST https://ai.ezif.in/v1/chat/completions (model: phi-4-mini-flash-reasoning, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[57/73] Testing gemini-3.1-flash-lite-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-flash-lite-preview:search, +thinking)
+    ← 403 (41ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (41ms)
+[8/73] Testing pr-2/claude-sonnet-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-20250514, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[33/73] Testing phi-4-multimodal-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: phi-4-multimodal-instruct, +thinking)
+    ← 403 (34ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (34ms)
+[58/73] Testing gemini-2.5-flash...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[9/73] Testing pr-2/claude-sonnet-4-5-20250929...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-5-20250929, +thinking)
+    ← 403 (23ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (23ms)
+[34/73] Testing minimax-m2.1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2.1, +thinking)
+    ← 403 (30ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (30ms)
+[59/73] Testing gemini-2.5-flash:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash:search, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[10/73] Testing claude-opus-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-opus-4-6, +thinking)
+    ← 403 (35ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (35ms)
+[35/73] Testing minimax-m2.5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2.5, +thinking)
+    ← 403 (51ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (51ms)
+[60/73] Testing gemini-2.5-flash-lite...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash-lite, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[11/73] Testing pr-2/claude-opus-4-1-20250805...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-1-20250805, +thinking)
+    ← 403 (35ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (35ms)
+[36/73] Testing minimax-m2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[61/73] Testing gemini-2.5-flash-lite:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash-lite:search, +thinking)
+    ← 403 (20ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (20ms)
+[12/73] Testing pr-2/claude-opus-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-20250514, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[37/73] Testing devstral-2-123b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: devstral-2-123b, +thinking)
+    ← 403 (282ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (282ms)
+[62/73] Testing gemini-2.5-pro...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-pro, +thinking)
+    ← 403 (292ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (292ms)
+[13/73] Testing pr-2/claude-opus-4-5-20251101...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-5-20251101, +thinking)
+    ← 403 (280ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (280ms)
+[38/73] Testing mistral-large-3-675b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: mistral-large-3-675b-instruct, +thinking)
+    ← 403 (277ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (277ms)
+[63/73] Testing gemini-2.5-pro:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-pro:search, +thinking)
+    ← 403 (278ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (278ms)
+[14/73] Testing gpt-5.4...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.4, +thinking)
+    ← 403 (280ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (280ms)
+[39/73] Testing kimi-k2-instruct-0905...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2-instruct-0905, +thinking)
+    ← 403 (275ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (275ms)
+[64/73] Testing gemini-robotics-er-1.5-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-robotics-er-1.5-preview, +thinking)
+    ← 403 (285ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (285ms)
+[15/73] Testing xiaomi/mimo-v2-pro...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-pro, +thinking)
+    ← 403 (274ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (274ms)
+[40/73] Testing kimi-k2.5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2.5, +thinking)
+    ← 403 (277ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (277ms)
+[65/73] Testing gemini-robotics-er-1.5-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-robotics-er-1.5-preview:search, +thinking)
+    ← 403 (283ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (283ms)
+[16/73] Testing xiaomi/mimo-v2-omni...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-omni, +thinking)
+    ← 403 (294ms, 4543 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (294ms)
+[41/73] Testing kimi-k2-thinking...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2-thinking, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[66/73] Testing gemma-4-26b-a4b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-26b-a4b-it, +thinking)
+    ← 403 (25ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (25ms)
+[17/73] Testing z-ai/glm-5.1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: z-ai/glm-5.1, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[42/73] Testing nemotron-3-nano-30b-a3b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: nemotron-3-nano-30b-a3b, +thinking)
+    ← 403 (22ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (22ms)
+[67/73] Testing gemma-4-26b-a4b-it:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-26b-a4b-it:search, +thinking)
+    ← 403 (50ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (50ms)
+[18/73] Testing qwen/qwen3.6-plus...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen/qwen3.6-plus, +thinking)
+    ← 403 (41ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (41ms)
+[43/73] Testing gpt-oss-120b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-oss-120b, +thinking)
+    ← 403 (39ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (39ms)
+[68/73] Testing gemma-4-31b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-31b-it, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[19/73] Testing qwen3.5-397b-a17b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-397b-a17b, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[44/73] Testing gpt-oss-20b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-oss-20b, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[69/73] Testing gemma-4-31b-it:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-31b-it:search, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[20/73] Testing qwen3-235b-a22b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-235b-a22b, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[45/73] Testing step-3.5-flash...
+    → POST https://ai.ezif.in/v1/chat/completions (model: step-3.5-flash, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[70/73] Testing gemma-3-27b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-27b-it, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[21/73] Testing qwen3-32b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-32b, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[46/73] Testing glm-4.7...
+    → POST https://ai.ezif.in/v1/chat/completions (model: glm-4.7, +thinking)
+    ← 403 (49ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (49ms)
+[71/73] Testing gemma-3-12b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-12b-it, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[22/73] Testing qwen3-coder-480b-a35b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-coder-480b-a35b-instruct, +thinking)
+    ← 403 (22ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (22ms)
+[47/73] Testing glm-5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: glm-5, +thinking)
+    ← 403 (38ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (38ms)
+[72/73] Testing gemma-3-4b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-4b-it, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[23/73] Testing qwen3-next-80b-a3b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-next-80b-a3b-instruct, +thinking)
+    ← 403 (30ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (30ms)
+[48/73] Testing kivest-tungtung-brainrot...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kivest-tungtung-brainrot, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[73/73] Testing gemma-3-1b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-1b-it, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+
+Wrote /var/www/kivest/data/status.json
+Wrote /var/www/kivest/data/history.json
+
+=== Summary ===
+Operational: 0 | Down: 73 | Paid Only: 0
+Reasoning-capable: 23
+Total LLMs: 73
+[24/73] Testing qwen3-next-80b-a3b-thinking...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-next-80b-a3b-thinking, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[49/73] Testing llama3.1-8B...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama3.1-8B, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[25/73] Testing seed-oss-36b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: seed-oss-36b-instruct, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[50/73] Testing qwen3.5-plus...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-plus, +thinking)
+    ← 403 (23ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (23ms)
+Fetching model list...
+Fetching models from https://ai.ezif.in/v1/models (auth=true)...
+  ← 200 (57164 bytes)
+Found 74 LLM models (excluded 12 non-LLM models)
+Run #29
+Testing 74 models sequentially (12s delay between each)...
+[1/74] Testing claude-sonnet-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-sonnet-4-6, +thinking)
+[26/73] Testing deepseek-r1-0528...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-r1-0528, +thinking)
+    ← 403 (42ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (42ms)
+    ← 200 (4126ms, 412 bytes, content-type: application/json)
+  ✓ operational (4126ms)
+[51/73] Testing qwen3.5-flash...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-flash, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[27/73] Testing deepseek-chat...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-chat, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[2/74] Testing claude-haiku-4-5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-haiku-4-5, +thinking)
+[52/73] Testing gemini-3.1-pro-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-pro-preview, +thinking)
+    ← 403 (36ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (36ms)
+    ← 502 (1513ms, 136 bytes, content-type: application/json)
+    ⚠ API error: Authentication with the model provider failed. Please try again later.
+  ✗ down (1513ms)
+[28/73] Testing deepseek-v3.2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-v3.2, +thinking)
+    ← 403 (22ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (22ms)
+[53/73] Testing gemini-3.1-pro-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-pro-preview:search, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[3/74] Testing gpt-5.3-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.3-codex, +thinking)
+    ← 200 (2990ms, 913 bytes, content-type: application/json)
+  ✓ operational (2990ms)
+[29/73] Testing deepseek-reasoner...
+    → POST https://ai.ezif.in/v1/chat/completions (model: deepseek-reasoner, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[54/73] Testing gemini-3-flash-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3-flash-preview, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[4/74] Testing gpt-5-2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5-2, +thinking)
+    ← 502 (892ms, 136 bytes, content-type: application/json)
+    ⚠ API error: Authentication with the model provider failed. Please try again later.
+  ✗ down (892ms)
+[30/73] Testing llama-4-maverick-17b-128e-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama-4-maverick-17b-128e-instruct, +thinking)
+    ← 403 (40ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (40ms)
+[55/73] Testing gemini-3-flash-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3-flash-preview:search, +thinking)
+    ← 403 (43ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (43ms)
+[5/74] Testing gpt-5.2-codex...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.2-codex, +thinking)
+    ← 200 (3033ms, 822 bytes, content-type: application/json)
+  ✓ operational (3033ms)
+[31/73] Testing llama-4-scout-17b-16e-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama-4-scout-17b-16e-instruct, +thinking)
+    ← 403 (46ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (46ms)
+[56/73] Testing gemini-3.1-flash-lite-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-flash-lite-preview, +thinking)
+    ← 403 (39ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (39ms)
+[6/74] Testing grok-code-fast-1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: grok-code-fast-1, +thinking)
+[32/73] Testing phi-4-mini-flash-reasoning...
+    → POST https://ai.ezif.in/v1/chat/completions (model: phi-4-mini-flash-reasoning, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[57/73] Testing gemini-3.1-flash-lite-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-3.1-flash-lite-preview:search, +thinking)
+    ← 403 (39ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (39ms)
+    ← 200 (6953ms, 502 bytes, content-type: application/json)
+  ✓ operational (6953ms)
+[33/73] Testing phi-4-multimodal-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: phi-4-multimodal-instruct, +thinking)
+    ← 403 (41ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (41ms)
+[58/73] Testing gemini-2.5-flash...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash, +thinking)
+    ← 403 (37ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (37ms)
+[7/74] Testing sarvamai/sarvam-m...
+    → POST https://ai.ezif.in/v1/chat/completions (model: sarvamai/sarvam-m, +thinking)
+    ← 400 (658ms, 122 bytes, content-type: application/json)
+    ⚠ API error: The request was rejected by the model provider.
+  ✗ down (658ms)
+[34/73] Testing minimax-m2.1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2.1, +thinking)
+    ← 403 (38ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (38ms)
+[59/73] Testing gemini-2.5-flash:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash:search, +thinking)
+    ← 403 (40ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (40ms)
+[8/74] Testing pr-2/claude-sonnet-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-20250514, +thinking)
+    ← 502 (208ms, 147 bytes, content-type: application/json)
+    ⚠ API error: The model provider is temporarily unavailable. Please try again in a few seconds.
+  ✗ down (208ms)
+[35/73] Testing minimax-m2.5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2.5, +thinking)
+    ← 403 (25ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (25ms)
+[60/73] Testing gemini-2.5-flash-lite...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash-lite, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[9/74] Testing pr-2/claude-sonnet-4-5-20250929...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-sonnet-4-5-20250929, +thinking)
+    ← 502 (1047ms, 147 bytes, content-type: application/json)
+    ⚠ API error: The model provider is temporarily unavailable. Please try again in a few seconds.
+  ✗ down (1047ms)
+[36/73] Testing minimax-m2...
+    → POST https://ai.ezif.in/v1/chat/completions (model: minimax-m2, +thinking)
+    ← 403 (30ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (30ms)
+[61/73] Testing gemini-2.5-flash-lite:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-flash-lite:search, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[10/74] Testing claude-opus-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-opus-4-6, +thinking)
+    ← 200 (3014ms, 410 bytes, content-type: application/json)
+  ✓ operational (3014ms)
+[37/73] Testing devstral-2-123b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: devstral-2-123b, +thinking)
+    ← 403 (25ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (25ms)
+[62/73] Testing gemini-2.5-pro...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-pro, +thinking)
+    ← 403 (23ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (23ms)
+[11/74] Testing pr-2/claude-opus-4-1-20250805...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-1-20250805, +thinking)
+    ← 502 (478ms, 147 bytes, content-type: application/json)
+    ⚠ API error: The model provider is temporarily unavailable. Please try again in a few seconds.
+  ✗ down (478ms)
+[38/73] Testing mistral-large-3-675b-instruct...
+    → POST https://ai.ezif.in/v1/chat/completions (model: mistral-large-3-675b-instruct, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[63/73] Testing gemini-2.5-pro:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-2.5-pro:search, +thinking)
+    ← 403 (26ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (26ms)
+[12/74] Testing claude-opus-4-7...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-opus-4-7, +thinking)
+    ← 200 (2303ms, 410 bytes, content-type: application/json)
+  ✓ operational (2303ms)
+[39/73] Testing kimi-k2-instruct-0905...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2-instruct-0905, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[64/73] Testing gemini-robotics-er-1.5-preview...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-robotics-er-1.5-preview, +thinking)
+    ← 403 (49ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (49ms)
+[13/74] Testing pr-2/claude-opus-4-20250514...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-20250514, +thinking)
+[40/73] Testing kimi-k2.5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2.5, +thinking)
+    ← 403 (41ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (41ms)
+    ← 502 (525ms, 147 bytes, content-type: application/json)
+    ⚠ API error: The model provider is temporarily unavailable. Please try again in a few seconds.
+  ✗ down (525ms)
+[65/73] Testing gemini-robotics-er-1.5-preview:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemini-robotics-er-1.5-preview:search, +thinking)
+    ← 403 (39ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (39ms)
+[41/73] Testing kimi-k2-thinking...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kimi-k2-thinking, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[14/74] Testing pr-2/claude-opus-4-5-20251101...
+    → POST https://ai.ezif.in/v1/chat/completions (model: pr-2/claude-opus-4-5-20251101, +thinking)
+    ← 502 (444ms, 147 bytes, content-type: application/json)
+    ⚠ API error: The model provider is temporarily unavailable. Please try again in a few seconds.
+  ✗ down (444ms)
+[66/73] Testing gemma-4-26b-a4b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-26b-a4b-it, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[42/73] Testing nemotron-3-nano-30b-a3b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: nemotron-3-nano-30b-a3b, +thinking)
+    ← 403 (44ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (44ms)
+[15/74] Testing gpt-5.4...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-5.4, +thinking)
+[67/73] Testing gemma-4-26b-a4b-it:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-26b-a4b-it:search, +thinking)
+    ← 403 (46ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (46ms)
+    ← 200 (3593ms, 557 bytes, content-type: application/json)
+  ✓ operational (3593ms)
+[43/73] Testing gpt-oss-120b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-oss-120b, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[68/73] Testing gemma-4-31b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-31b-it, +thinking)
+    ← 403 (31ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (31ms)
+[16/74] Testing xiaomi/mimo-v2-pro...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-pro, +thinking)
+    ← 200 (1656ms, 434 bytes, content-type: application/json)
+    ⚠ Empty content with thinking params, retrying without...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-pro, plain)
+    ← 200 (2176ms, 434 bytes, content-type: application/json)
+  ✓ operational (2176ms)
+[44/73] Testing gpt-oss-20b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gpt-oss-20b, +thinking)
+    ← 403 (24ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (24ms)
+[69/73] Testing gemma-4-31b-it:search...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-4-31b-it:search, +thinking)
+    ← 403 (35ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (35ms)
+[17/74] Testing xiaomi/mimo-v2-omni...
+    → POST https://ai.ezif.in/v1/chat/completions (model: xiaomi/mimo-v2-omni, +thinking)
+    ← 200 (223ms, 508 bytes, content-type: application/json)
+  ✓ operational (223ms)
+[45/73] Testing step-3.5-flash...
+    → POST https://ai.ezif.in/v1/chat/completions (model: step-3.5-flash, +thinking)
+    ← 403 (28ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (28ms)
+[70/73] Testing gemma-3-27b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-27b-it, +thinking)
+    ← 403 (22ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (22ms)
+[18/74] Testing z-ai/glm-5.1...
+    → POST https://ai.ezif.in/v1/chat/completions (model: z-ai/glm-5.1, +thinking)
+[46/73] Testing glm-4.7...
+    → POST https://ai.ezif.in/v1/chat/completions (model: glm-4.7, +thinking)
+    ← 403 (22ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (22ms)
+    ← 200 (6309ms, 1658 bytes, content-type: application/json)
+  ✓ operational (6309ms) [reasoning]
+[71/73] Testing gemma-3-12b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-12b-it, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+[47/73] Testing glm-5...
+    → POST https://ai.ezif.in/v1/chat/completions (model: glm-5, +thinking)
+    ← 403 (44ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (44ms)
+[19/74] Testing qwen/qwen3.6-plus...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen/qwen3.6-plus, +thinking)
+[72/73] Testing gemma-3-4b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-4b-it, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+    ← 200 (1296ms, 2224 bytes, content-type: application/json)
+  ✓ operational (1296ms) [reasoning]
+[48/73] Testing kivest-tungtung-brainrot...
+    → POST https://ai.ezif.in/v1/chat/completions (model: kivest-tungtung-brainrot, +thinking)
+    ← 403 (32ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (32ms)
+[73/73] Testing gemma-3-1b-it...
+    → POST https://ai.ezif.in/v1/chat/completions (model: gemma-3-1b-it, +thinking)
+    ← 403 (27ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (27ms)
+
+Wrote /var/www/kivest/data/status.json
+Wrote /var/www/kivest/data/history.json
+
+=== Summary ===
+Operational: 0 | Down: 73 | Paid Only: 0
+Reasoning-capable: 23
+Total LLMs: 73
+[20/74] Testing qwen3.5-397b-a17b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-397b-a17b, +thinking)
+    ← 503 (36ms, 90 bytes, content-type: application/json)
+    ⚠ API error: Provider not configured.
+  ✗ down (36ms)
+[49/73] Testing llama3.1-8B...
+    → POST https://ai.ezif.in/v1/chat/completions (model: llama3.1-8B, +thinking)
+    ← 403 (29ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (29ms)
+[21/74] Testing qwen3-235b-a22b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-235b-a22b, +thinking)
+    ← 503 (26ms, 90 bytes, content-type: application/json)
+    ⚠ API error: Provider not configured.
+  ✗ down (26ms)
+[50/73] Testing qwen3.5-plus...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3.5-plus, +thinking)
+    ← 403 (42ms, 4551 bytes, content-type: text/html; charset=UTF-8)
+    ⚠ Non-JSON response: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+  ✗ down (42ms)
+[22/74] Testing qwen3-32b...
+    → POST https://ai.ezif.in/v1/chat/completions (model: qwen3-32b, +thinking)
+    ← 503 (53ms, 90 bytes, content-type: application/json)
+    ⚠ API error: Provider not configured.
+  ✗ down (53ms)
+Fetching model list...
+Fetching models from https://ai.ezif.in/v1/models (auth=true)...
+  ← 200 (57164 bytes)
+Found 74 LLM models (excluded 12 non-LLM models)
+Run #30
+Testing 74 models sequentially (12s delay between each)...
+[1/74] Testing claude-sonnet-4-6...
+    → POST https://ai.ezif.in/v1/chat/completions (model: claude-sonnet-4-6, +thinking)
